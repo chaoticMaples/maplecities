@@ -3,6 +3,27 @@
     src: url(https://chaoticmaples.neocities.org/fonts/KiwiSoda.woff);
 }
 
+@media (min-width: 600px) {
+    .header {
+        grid-area: 1 / span 6;
+    }
+
+    .music {
+        grid-area: 2 / span 1;
+    }
+
+    .stamps {
+        grid-area: 2 / span 4;
+    }
+
+    .main {
+        grid-area: 2 / span 1;
+    }
+
+    .blink {
+        grid-area: 3 / span 6;
+    }
+}
 
 body {
     background-image: url("3.jpg");
