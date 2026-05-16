@@ -1,9 +1,0 @@
-{
-    "name": "maplecities",
-    "version": "1.0.0",
-    "description": "Maple Cities website",
-    "scripts": {
-        "build": "echo 'Build script here'"
-    },
-    "dependencies": {}
-}
