@@ -70,6 +70,7 @@ body {
     text-align: center;
     overflow-x: scroll;
     max-height: 50px;
+    display: flex;
 
 }
 
@@ -77,8 +78,4 @@ body {
     grid-area: footer;
     text-align: center;
     height: 25px;
-}
-
-.a {
-    display: block;
 }
