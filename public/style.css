@@ -71,6 +71,7 @@ body {
     overflow-x: scroll;
     max-height: 50px;
     display: flex;
+    white-space: nowrap;
 
 }
 
