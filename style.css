@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Kiwi";
+    src: url(https://chaoticmaples.neocities.org/fonts/KiwiSoda.woff);
+}
+
+
+body {
+    background-image: url("3.jpg");
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template:
+        "header header header"
+        "music stamps main"
+        "music stamps blink"
+        "music stamps footer"
+        / 1fr 2fr 3fr;
+    grid-gap: 15px;
+    padding: 25px;
+    margin: 200px;
+    background-color: rgb(117, 159, 219);
+    border: 5px solid rgb(242, 248, 255);
+
+}
+
+.container div {
+    background-color: rgb(242, 248, 255);
+    border: 5px solid;
+    border-style: inset;
+    font-family: "Kiwi";
+
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    max-height: 150px;
+
+}
+
+.music {
+    grid-area: music;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.stamps {
+    grid-area: stamps;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.main {
+    grid-area: main;
+    text-align: center;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.blink {
+    grid-area: blink;
+    text-align: center;
+    max-width: 3fr;
+    overflow-x: auto;
+    height: 50px;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    height: 25px;
+}
