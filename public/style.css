@@ -68,7 +68,6 @@ body {
 .blink {
     grid-area: blink;
     text-align: center;
-    max-width: 3fr;
     overflow-x: scroll;
     max-height: 50px;
 
