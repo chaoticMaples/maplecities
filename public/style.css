@@ -79,3 +79,7 @@ body {
     text-align: center;
     height: 25px;
 }
+
+.a {
+    display: block;
+}
