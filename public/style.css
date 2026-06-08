@@ -85,7 +85,7 @@ body {
 .buttons {
     grid-area: buttons;
     text-align: center;
-    height: 25px;
+    height: 50px;
     overflow-x: scroll;
     white-space: nowrap;
     display: flex;
