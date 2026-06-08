@@ -18,7 +18,7 @@ body {
     grid-template:
         "header header header"
         "music stamps main"
-        "music stamps blink"
+        "buttons buttons blink"
         "music stamps footer"
         / 1fr 2fr 3fr;
     grid-gap: 15px;
@@ -80,4 +80,14 @@ body {
     grid-area: footer;
     text-align: center;
     height: 25px;
+}
+
+buttons {
+    grid-area: buttons;
+    text-align: center;
+    height: 25px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    gap: 5px;
 }
