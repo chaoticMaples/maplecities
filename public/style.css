@@ -102,6 +102,11 @@ body {
     color: rgb(3, 16, 84)
 }
 
+::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
+}
+
+
 /* links aaaaa */
 
 a:link {
