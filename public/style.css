@@ -26,12 +26,12 @@ body {
     margin: 200px;
     background-image: url("tile.png");
 
-    border: 5px solid rgb(242, 248, 255);
-
+    border: 5px solid rgb(3, 16, 84)
 }
 
 .container div {
-    background-color: rgb(242, 248, 255);
+    background-color: rgb(3, 16, 84);
+    color: rgb(242, 248, 255);
     border: 5px solid;
     border-style: inset;
     font-family: "Kiwi";
