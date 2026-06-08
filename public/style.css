@@ -24,7 +24,8 @@ body {
     grid-gap: 15px;
     padding: 25px;
     margin: 200px;
-    background-color: rgb(117, 159, 219);
+    background-image: url("tile.png");
+
     border: 5px solid rgb(242, 248, 255);
 
 }
