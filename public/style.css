@@ -12,6 +12,7 @@ body {
 }
 
 
+/* collect my container. bitch */
 
 .container {
     display: grid;
@@ -92,4 +93,19 @@ body {
     display: flex;
     gap: 5px;
     max-height: 50px;
+}
+
+/* links aaaaa */
+
+a:link {
+
+    color: rgb(57, 85, 194)
+}
+
+a:visited {
+    color: rgb(57, 85, 194);
+}
+
+a:hover {
+    color: rgb(104, 144, 255):
 }
