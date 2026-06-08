@@ -103,7 +103,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(57, 85, 194);
+    color: rgb(57, 85, 194);
 }
 
 
