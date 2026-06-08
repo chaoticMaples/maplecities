@@ -19,7 +19,7 @@ body {
         "header header header"
         "music stamps main"
         "buttons buttons blink"
-        "music stamps footer"
+        "buttons buttons footer"
         / 1fr 2fr 3fr;
     grid-gap: 15px;
     padding: 25px;
@@ -89,5 +89,6 @@ body {
     overflow-x: scroll;
     white-space: nowrap;
     display: flex;
-
+    gap: 5px;
+    max-height: 50px;
 }
