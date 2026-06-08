@@ -95,6 +95,13 @@ body {
     max-height: 50px;
 }
 
+/* scroll bars */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84)
+}
+
 /* links aaaaa */
 
 a:link {
