@@ -29,15 +29,7 @@ body {
     border: 5px solid rgb(3, 16, 84);
 }
 
-.container::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-    color: rgb(3, 16, 84);
-}
 
-.container::-webkit-scrollbar-thumb {
-    background: rgb(57, 85, 194);
-}
 
 .container div {
     background-color: rgb(3, 16, 84);
@@ -52,8 +44,8 @@ body {
     grid-area: header;
     text-align: center;
     max-height: 150px;
-
 }
+
 
 .music {
     grid-area: music;
@@ -103,6 +95,79 @@ body {
     gap: 5px;
     max-height: 50px;
 }
+
+/* scroll bar style */
+
+.header::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84);
+}
+
+.header::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
+}
+
+.music::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84);
+}
+
+.music::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
+}
+
+.stamps::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84);
+}
+
+.stamps::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
+}
+
+.main::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84);
+}
+
+.main::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
+}
+
+.blink::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84);
+}
+
+.blink::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
+}
+
+.footer::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84);
+}
+
+.footer::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
+}
+
+.buttons::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84);
+}
+
+.buttons::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
+}
+
 
 
 
