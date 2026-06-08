@@ -6,9 +6,8 @@
 
 body {
     background-image: url("tile.png");
-    background-color: skyblue;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(3, 16, 84);
+    background-repeat: repeat-y;
 }
 
 
