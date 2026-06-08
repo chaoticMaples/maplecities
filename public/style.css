@@ -26,21 +26,17 @@ body {
     padding: 25px;
     margin: 200px;
     background-image: url("tile.png");
+    border: 5px solid rgb(3, 16, 84);
+}
 
-    border: 5px solid rgb(3, 16, 84)
+.container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    color: rgb(3, 16, 84);
+}
 
-    /* scroll bars */
-    ::-webkit-scrollbar {
-        width: 10px;
-        height: 10px;
-        color: rgb(3, 16, 84)
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: rgb(57, 85, 194);
-    }
-
-
+.container::-webkit-scrollbar-thumb {
+    background: rgb(57, 85, 194);
 }
 
 .container div {
