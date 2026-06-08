@@ -5,7 +5,7 @@
 
 
 body {
-    background-image: url("3.jpg");
+    background-image: url("tile.png");
     background-color: skyblue;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,14 +24,13 @@ body {
     grid-gap: 15px;
     padding: 25px;
     margin: 200px;
-    background-image: url("tile.png");
-
-    border: 5px solid rgb(3, 16, 84)
+    background-color: rgb(3, 16, 84);
+    border: 5px solid rgb(242, 248, 255)
 }
 
 .container div {
-    background-color: rgb(3, 16, 84);
-    color: rgb(242, 248, 255);
+    background-color: rgb(242, 248, 255);
+    color: rgb(3, 16, 84);
     border: 5px solid;
     border-style: inset;
     font-family: "Kiwi";
