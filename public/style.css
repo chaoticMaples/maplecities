@@ -82,7 +82,7 @@ body {
     height: 25px;
 }
 
-buttons {
+.buttons {
     grid-area: buttons;
     text-align: center;
     height: 25px;
