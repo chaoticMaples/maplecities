@@ -91,12 +91,13 @@ body {
 .buttons {
     grid-area: buttons;
     text-align: center;
-    height: 50px;
+    height: 100px;
     overflow-x: scroll;
+    overflow-y: hidden;
     white-space: nowrap;
     display: flex;
     gap: 5px;
-    max-height: 50px;
+    max-height: 100px;
     padding-left: 15px !important;
 }
 
