@@ -198,5 +198,13 @@ a:hover {
     top: 0;
     left: 0;
     margin-left: 55px;
-    margin-top: 250px;
+    margin-top: 225px;
+}
+
+.hyperlaser2 {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-right: 55px;
 }
