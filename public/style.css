@@ -24,10 +24,10 @@ body {
         / 1fr 2fr 3fr;
     grid-gap: 15px;
     padding: 25px;
-    margin-top: 100px;
+    margin-top: 75px;
     margin-right: 200px;
     margin-left: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     background-image: url("tile.png");
     border: 5px solid rgb(3, 16, 84);
 }
