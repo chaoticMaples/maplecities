@@ -19,8 +19,8 @@ body {
     grid-template:
         "header header header"
         "music stamps main"
-        "buttons buttons blink"
-        "buttons buttons footer"
+        "hyper buttons blink"
+        "hyper buttons footer"
         / 1fr 2fr 3fr;
     grid-gap: 15px;
     padding: 25px;
@@ -101,9 +101,22 @@ body {
     padding-left: 15px !important;
 }
 
+.hyper {
+    grid-area: hyper;
+    text-align: center;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    display: flex;
+    gap: 5px;
+    max-height: 200px;
+
+
+}
+
+
 /* scroll bar style */
-
-
 
 .header::-webkit-scrollbar {
     width: 10px;
