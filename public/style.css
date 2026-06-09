@@ -192,6 +192,6 @@ a:hover {
 /* HYPERLASER MY BABY */
 .hyperlaser {
     z-index: 1;
-    position: absolute;
+
     border: hidden;
 }
