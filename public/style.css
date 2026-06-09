@@ -188,10 +188,3 @@ a:visited {
 a:hover {
     color: rgb(104, 144, 255);
 }
-
-/* HYPERLASER MY BABY */
-.hyperlaser {
-    z-index: 1;
-
-    border: hidden;
-}
